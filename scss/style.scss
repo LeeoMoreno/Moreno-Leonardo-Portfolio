@@ -3,12 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+ header {
+    position: sticky!important;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
 .logoHeader {
     margin-top: 15px;
 }
 
 .botonCv {
+    width: 80px;
     background-color: #B2FF9E;
     border: black solid 1px;
     border-radius: 10px;
@@ -22,10 +34,15 @@
     }
 }
 
+h2 {
+    margin: 50px auto;
+}
+
 .heroPrincipal {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.3)), url(../img/fondo-codigo.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 15px;
     
     .botones {
         background-color: #B2FF9E;
@@ -79,14 +96,12 @@
 
         .contenedorCono {
             margin-top: 90px;
-        }
-
-        h2 {
-            margin: 50px auto;
+            margin-bottom: 80px;
         }
 
         .textoLeo {
             padding: 0 50px;
+            margin-bottom: 80px;
 
         }
 

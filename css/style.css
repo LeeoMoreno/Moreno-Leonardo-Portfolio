@@ -3,10 +3,21 @@
   padding: 0;
   box-sizing: border-box; }
 
+header {
+  position: sticky !important;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.95); }
+
+a {
+  text-decoration: none;
+  color: black; }
+
 .logoHeader {
   margin-top: 15px; }
 
 .botonCv {
+  width: 80px;
   background-color: #B2FF9E;
   border: black solid 1px;
   border-radius: 10px;
@@ -16,10 +27,14 @@
   .botonCv:hover {
     background-color: #AFFC41; }
 
+h2 {
+  margin: 50px auto; }
+
 .heroPrincipal {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.3)), url(../img/fondo-codigo.webp);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-top: 15px; }
   .heroPrincipal .botones {
     background-color: #B2FF9E;
     border: black solid 1px;
@@ -53,10 +68,10 @@
     width: 70px;
     height: 70px; }
   .sobreLeo .contenedorCono {
-    margin-top: 90px; }
-  .sobreLeo h2 {
-    margin: 50px auto; }
+    margin-top: 90px;
+    margin-bottom: 80px; }
   .sobreLeo .textoLeo {
-    padding: 0 50px; }
+    padding: 0 50px;
+    margin-bottom: 80px; }
   .sobreLeo .contenedorInter {
     margin-bottom: 50px; }
