@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoHeader {
+    margin-top: 15px;
+}
+
+.botonCv {
+    background-color: #B2FF9E;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 500;
+    transition: all 600ms ease;
+
+
+    &:hover {
+        background-color: #AFFC41;
+    }
+}
+
+.heroPrincipal {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.3)), url(../img/fondo-codigo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    .botones {
+        background-color: #B2FF9E;
+        border: black solid 1px;
+        border-radius: 10px;
+        padding: 8px;
+        margin: 25px;
+        font-weight: 500;
+        transition: all 600ms ease;
+    
+    
+        &:hover {
+            background-color: #AFFC41;
+        }
+ 
+    }
+    .contenedorImagen {
+        margin: 0 auto;
+    }
+    .imagenHero {
+        max-height: 600px;
+        max-width: 300px;
+        border: solid black 3px;
+        border-radius: 90px;
+        align-items: center;
+    }
+
+    h1 {
+        color: #AFFC41;
+    }
+    .textoHero {
+        color: #B2FF9E;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .contenedorBotones {
+        margin: auto;
+    }
+ }
+
+ .sobreLeo {
+    margin-top: 100px;
+ }
