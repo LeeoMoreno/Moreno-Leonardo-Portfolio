@@ -50,5 +50,13 @@
 .sobreLeo {
   margin-top: 100px; }
   .sobreLeo .logoConoc {
-    width: 30px;
-    height: 30px; }
+    width: 70px;
+    height: 70px; }
+  .sobreLeo .contenedorCono {
+    margin-top: 90px; }
+  .sobreLeo h2 {
+    margin: 50px auto; }
+  .sobreLeo .textoLeo {
+    padding: 0 50px; }
+  .sobreLeo .contenedorInter {
+    margin-bottom: 50px; }
