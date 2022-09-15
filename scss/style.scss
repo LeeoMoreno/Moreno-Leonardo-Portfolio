@@ -115,11 +115,11 @@ h2 {
     animation: rotar 10s infinite linear;
     transform-style: preserve-3d;
 
-    figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
-    figure:nth-child(2){transform: rotateY(72deg) translateZ(300px);}
-    figure:nth-child(3){transform: rotateY(144deg) translateZ(300px);}
-    figure:nth-child(4){transform: rotateY(216deg) translateZ(300px);}
-    figure:nth-child(5){transform: rotateY(288deg) translateZ(300px);}
+    figure:nth-child(1){transform: rotateY(0deg) translateZ(200px);}
+    figure:nth-child(2){transform: rotateY(72deg) translateZ(200px);}
+    figure:nth-child(3){transform: rotateY(144deg) translateZ(200px);}
+    figure:nth-child(4){transform: rotateY(216deg) translateZ(200px);}
+    figure:nth-child(5){transform: rotateY(288deg) translateZ(200px);}
 
     &:hover{
         animation-play-state: paused;
@@ -127,7 +127,7 @@ h2 {
     }
 
     figure {
-        width: 100%;
+        width: 90%;
         position: absolute;
     }
 
